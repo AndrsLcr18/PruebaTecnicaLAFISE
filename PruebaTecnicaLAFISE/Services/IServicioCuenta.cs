@@ -4,7 +4,7 @@ using System.Security.Principal;
 namespace PruebaTecnicaLAFISE.Services
 {
     public interface IServicioCuenta
-    {   // Interfaz para el servicio de cuenta
+    {   // Interfaz para el servicio de cuenta metodos CrearCuentaAsync, GetSaldoAsync, DepositoAsync, RetiroAsync, GetTransaccionesAsync, GetSaldosAsync y CrearCuentasAsync
         Task<Cuenta> CrearCuentaAsync(Int64 clientId, decimal saldoInicial);
         Task<decimal> GetSaldoAsync(string numeroCuenta);
         Task<Transaccion> DepositoAsync(string numeroCuenta, decimal monto);

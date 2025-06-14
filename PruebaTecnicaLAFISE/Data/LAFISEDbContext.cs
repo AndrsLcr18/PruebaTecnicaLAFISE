@@ -24,14 +24,14 @@ namespace PruebaTecnicaLAFISE.Data
                 .HasOne(c => c.Cliente)
                 .WithMany(cl => cl.Cuentas)
                 .HasForeignKey(c => c.ClienteId)
-                .OnDelete(DeleteBehavior.Cascade); // Ajusta según tu lógica de negocio
+                .OnDelete(DeleteBehavior.Cascade); 
 
             // Relación Cuenta - Transaccion (Una cuenta tiene muchas transacciones)
             modelBuilder.Entity<Transaccion>()
                 .HasOne(t => t.Cuenta)
                 .WithMany(c => c.Transacciones)
                 .HasForeignKey(t => t.CuentaId)
-                .OnDelete(DeleteBehavior.Restrict); // Evita eliminar una cuenta con transacciones
+                .OnDelete(DeleteBehavior.Restrict); 
 
             base.OnModelCreating(modelBuilder);
         }

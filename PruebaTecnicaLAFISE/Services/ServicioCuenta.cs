@@ -16,7 +16,7 @@ namespace PruebaTecnicaLAFISE.Services
         {
             _context = context;
         }
-
+        // Constructor que recibe el contexto de la base de datos y el mapeador
         public ServicioCuenta(LAFISEDbContext context, IMapper mapper)
         {
             _context = context;
