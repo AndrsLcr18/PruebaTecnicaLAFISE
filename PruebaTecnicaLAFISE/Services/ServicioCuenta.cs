@@ -17,7 +17,7 @@ namespace PruebaTecnicaLAFISE.Services
             _context = context;
         }
 
-        public ServicioCuenta(LAFISEDbContext context, IMapper mapper, IServicioCuenta servicioCuenta)
+        public ServicioCuenta(LAFISEDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
