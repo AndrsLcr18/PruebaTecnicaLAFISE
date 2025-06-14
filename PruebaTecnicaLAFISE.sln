@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaLAFISE", "PruebaTecnicaLAFISE\PruebaTecnicaLAFISE.csproj", "{903E3377-9CB5-4E5E-B289-ED7519F9080D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPruebaTecnicaLAFISE", "TestPruebaTecnicaLAFISE\TestPruebaTecnicaLAFISE.csproj", "{66B49946-81E1-410C-A283-013E8BD13CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{903E3377-9CB5-4E5E-B289-ED7519F9080D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903E3377-9CB5-4E5E-B289-ED7519F9080D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903E3377-9CB5-4E5E-B289-ED7519F9080D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903E3377-9CB5-4E5E-B289-ED7519F9080D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B49946-81E1-410C-A283-013E8BD13CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B49946-81E1-410C-A283-013E8BD13CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B49946-81E1-410C-A283-013E8BD13CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B49946-81E1-410C-A283-013E8BD13CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B9EF4F-2572-4E93-98EC-A29F6CD9067D}
+	EndGlobalSection
+EndGlobal
